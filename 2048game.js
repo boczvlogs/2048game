@@ -314,7 +314,7 @@ Grid.prototype.withinBounds = function (position) {
          position.y >= 0 && position.y < this.size;
 };
 
-
+ 
 function HTMLActuator() {
   this.tileContainer    = document.getElementsByClassName("tile-container")[0];
   this.scoreContainer   = document.getElementsByClassName("score-container")[0];

@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
   window.requestAnimationFrame(function () {
   var manager = new GameManager(4, KeyboardInputManager, HTMLActuator);
   });
-});
+}); 
 function GameManager(size, InputManager, Actuator) {
   this.size         = size; // Size of the grid
   this.inputManager = new InputManager;

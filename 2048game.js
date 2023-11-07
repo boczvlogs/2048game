@@ -10,7 +10,7 @@ function GameManager(size, InputManager, Actuator) {
   this.size         = size; // Size of the grid
   this.inputManager = new InputManager;
   this.actuator     = new Actuator;
-  this.startTiles   = 2; 
+  this.startTiles   = 2;  
   this.inputManager.on("move", this.move.bind(this));
   this.inputManager.on("restart", this.restart.bind(this));
 

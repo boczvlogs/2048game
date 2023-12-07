@@ -14,7 +14,7 @@ function GameManager(size, InputManager, Actuator) {
   this.inputManager.on("move", this.move.bind(this));
   this.inputManager.on("restart", this.restart.bind(this));
 
-  this.setup(); 
+  this.setup();  
 }
  
 // Restart the game again 

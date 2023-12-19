@@ -17,13 +17,13 @@ function GameManager(size, InputManager, Actuator) {
   this.setup();  
 }
  
-// Restart the game again  
+ // Restart the game again  
 GameManager.prototype.restart = function () {
    this.actuator.restart(); 
    this.setup();
 };
 
-// Set up the game
+ // Set up the game
 GameManager.prototype.setup = function () {
   this.grid         = new Grid(this.size);
   this.score        = 0;

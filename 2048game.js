@@ -85,7 +85,8 @@ GameManager.prototype.move = function (direction) {
   // 0: up, 1: right, 2:down, 3: left
   var self = this;
 
-  if (this.over || this.won) return; // Don't do anything if the game's over
+  if (this.over || this.won) return; // Don't do anything if the game's over 
+  
 
   var cell, tile;
 

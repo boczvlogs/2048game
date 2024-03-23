@@ -9,7 +9,7 @@ public class Game2048 {
         initializeBoard();
     }
 
-    private void initializeBoard() {
+    private void initializeBoard() { 
         // Initialize the board with two random tiles
         addRandomTile();
         addRandomTile();

@@ -16,7 +16,7 @@ public class Game2048 {
     }
 
     private void addRandomTile() {
-        // Add a random tile (2 or 4) to a random empty cell
+        // Add a random tile (2 or 4) to a random empty
         // (In this example, we'll just add a 2 for simplicity)
         int row, col; 
         do {

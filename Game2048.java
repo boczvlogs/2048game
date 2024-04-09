@@ -22,7 +22,7 @@ public class Game2048 {
         do {
             row = (int) (Math.random() * SIZE);
             col = (int) (Math.random() * SIZE);
-        } while (board[row][col] != 0); 
+        } while (board[row][col] != 0);  
         board[row][col] = 2;
     }
 

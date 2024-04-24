@@ -13,7 +13,7 @@ public class Game2048 {
         // Initialize the board with two random tiles
         addRandomTile();
         addRandomTile();
-    }
+    }                                                                                                                                                                                                                
 
     private void addRandomTile() {
         // Add a random tile (2 or 4) to a random empty

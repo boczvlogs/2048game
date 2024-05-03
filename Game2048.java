@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Game2048 {
     private static final int SIZE = 4;
     private int[][] board;
-
+ 
     public Game2048() {
         board = new int[SIZE][SIZE];
         initializeBoard();

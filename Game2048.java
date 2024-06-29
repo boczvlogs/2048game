@@ -71,7 +71,6 @@ public class Game2048 {
         return false;
     }
 
-    
     private int calculateScore() {
         // Implement the logic to calculate the score
         // (In this example, we just return 0 for simplicity)

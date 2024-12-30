@@ -83,4 +83,4 @@ public class Game2048 {
     }
 }
 
-//Agoo Inc v1.04 BETA
+//Agoo Inc v1.04 BETA TM
